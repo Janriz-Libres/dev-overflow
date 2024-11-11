@@ -2,11 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
+body {
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  --radius: 8px;
+}
+
+/* @layer base {
   :root {
     --radius: 0.5rem;
   }
-}
+} */
 
 @layer utilities {
   .background-light850_dark100 {
